@@ -1,34 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 #main-footer {
-	color: #fff;
-	text-align: center;
-	padding: 20px;
-	margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 body {
-	background-image: linear-gradient(to left, #485563, #29323c);
-	margin-bottom: 100px;
+  background-image: linear-gradient(to left, #ffffff, #ffffff);
+  margin-bottom: 100px;
+}
+
+nav {
+  background-color: black;
+  color: white;
 }
 
 .title {
-	margin: 100px;
-	color: #ffffff;
+  margin: 100px;
+  color: #ffffff;
 }
 
 .wel-msg {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 600;
-	margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
 }
 
 .con-msg {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
 }
 
 .card {
-	margin-top: 10px;
+  margin-top: 10px;
+}
+
+.intro {
+  color: greenyellow;
+}
+
+a {
+  color: inherit;
+}
+
+h4 {
+  color: darkgray;
+  font-size: 70px;
+}
+
+.card-section {
+  display: block;
+  background-color: #e9ebf0;
+  margin-top: 50px;
+}
+
+.topic {
+  padding: 20px;
+}
+
+.home-image {
+  zoom: 15%;
+}
+
+.product-title {
+  padding-bottom: 25px;
+  text-align: center;
 }
